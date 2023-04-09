@@ -1,5 +1,5 @@
 ---
-title: "Welcome all :wave:!"
+title: "Welcome all 👋!"
 date: 2023-04-08T23:24:37+08:00
 description: "My personal website where I write about my work, past, present, or future."
 ---
