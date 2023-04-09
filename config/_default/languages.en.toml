@@ -6,8 +6,8 @@ weight = 1
 rtl = false
 
 title = "Amirul Lokman"
-# logo = "img/logo.png"
-description = "My awesome website"
+logo = "img/home_logo.png"
+description = "My personal website"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 dateFormat = "2 January 2006"
