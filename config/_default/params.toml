@@ -17,6 +17,8 @@ mainSections = ["articles"]
 
 disableImageOptimization = false
 
+logo = "img/home_logo.png"
+
 # defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
 
 # highlightCurrentMenuArea = true
