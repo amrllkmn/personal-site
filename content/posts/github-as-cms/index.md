@@ -1,8 +1,9 @@
 ---
 title: "Github as CMS"
 date: 2023-04-09T12:34:35+08:00
-draft: true
+draft: false
 summary: "I wanted a fast way of writing about software development with minimal setup, so here it is."
+tags: ["cms", "github"]
 ---
 
 It's been a while since I've had a portfolio website. I had one when I was trying to get my first dev job but shut it down as soon as I got employed (read: _too lazy to maintain it_). So this is my attempt at a revival.
