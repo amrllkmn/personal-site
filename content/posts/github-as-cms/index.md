@@ -50,6 +50,6 @@ Lucky for me, Hugo can be deployed through automation using GitHub Actions. So i
 
 In `gh-pages.yml`, I copied the workflow from Hugo's own [documentation](https://gohugo.io/hosting-and-deployment/hosting-on-github/) (like I said, it's pretty in depth). In the file the event target is on a push to `main` branch of your project's repo. So make sure the changes you've made and this workflow files will be pushed to main for the automation to trigger. If done correctly, you would see this on your repo page:
 
-![Github pages have been deployed](feature2.png)
+![Github pages have been deployed](image.png)
 
 Now, just check your GitHub Pages URL (probably something like `https://{github_username}/{repo_name}`). You're all set!
