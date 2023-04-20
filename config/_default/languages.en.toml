@@ -14,7 +14,7 @@ dateFormat = "2 January 2006"
 
 [author]
     name = "Amirul Lokman"
-    # image = "img/blowfish_logo.png"
+    image = "img/profile_pic.jpeg"
     headline = "Learning how to build cool stuff :smiling_face_with_sunglasses:"
     bio = "Hello, there :saluting_face:"
     links = [

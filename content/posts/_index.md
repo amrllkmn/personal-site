@@ -4,7 +4,7 @@ description: "All of the things I've posted."
 
 cascade:
   showDate: true
-  showAuthor: true
+  showAuthor: false
   invertPagination: true
 ---
 
