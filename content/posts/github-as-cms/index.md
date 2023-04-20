@@ -53,4 +53,4 @@ In `gh-pages.yml`, I copied the workflow from Hugo's own [documentation](https:/
 
 ![Github pages have been deployed](image.png)
 
-Now, just check your GitHub Pages URL (probably something like `https://{github_username}/{repo_name}`). You're all set!
+Now, just check your GitHub Pages URL (probably something like `https://{github_username}.github.io/{repo_name}`). You're all set!
