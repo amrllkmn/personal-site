@@ -6,6 +6,8 @@ tags: ["app", "building", "problem-solving", "deploying","project management"]
 summary: Why you should try building an app. It's cool. Really.
 ---
 
+> TL;DR: Building your own apps help you learn how to manage projects, pick up new skills, and even sharpen your problem solving skills.
+
 You can learn a lot from building and deploying an app. I just finished building a URL shortener web application with Rails and Next.js (it's currently [live](https://url-shortener-ui.vercel.app/)). Looking back, I realised that I came out of the project with a few key takeaways that are very valuable to a software engineer. I'd like to share them with you guys:
 
 ## Project management
@@ -33,4 +35,7 @@ Besides that, I learned about stubbing and mocking. Stubbing is when you return 
 These things are extremely valuable to learn and would serve me well in my next project. Hence, building on your own closes the technical gap between you and the next level in your career.
 
 ## Problem-solving
-At the end of the day, software engineers are problem-solvers. And in our projects, we will face some roadblocks toward our goals. Eventually, we will find a way to resolve it. And this is the key skill that building your own apps will sharpen. Also, it feeds back onto the first two takeaways as you will find solutions that require new techniques or just work around it till you can resolve it at a later date (without compromising user experience or security). Both are valid options to achieve your goals. I've never deployed an app before, so I wanted to ship the app as fast as possible so I went for a platform that had minimal configurations to deploy. Obviously, problem-solving is a great skill to cultivate that will pay off dividends throughout your time as a software engineer.
+In our projects, there will always be some roadblocks. Eventually, we will find a way to resolve it. And problem solving is the key skill that will benefit from building your own apps. Also, it feeds back onto the first two takeaways as you will find solutions that require new techniques or just work around it till you can resolve it at a later date (without compromising user experience or security). Both are valid options to achieve your goals. I've never deployed an app before, so I wanted to ship the app as fast as possible so I went for a platform that had minimal configurations to deploy. Obviously, problem-solving is a great skill to cultivate that will pay off dividends throughout your time as a software engineer.
+
+## Conclusion
+I think the tech influencers out there might have a point when they talk about building your own projects. In an industry where frameworks get out of date really fast, it's important to stay on top of things. You get to keep your skills sharp and might even add some new ones to your toolbox.
