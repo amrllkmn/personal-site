@@ -9,7 +9,7 @@ cascade:
 ---
 
 {{< lead >}}
-A collection of the things I've learned throughout my career as a software developer.
+A collection of the things I've learned, from work or my projects.
 {{< /lead >}}
 
 ---
