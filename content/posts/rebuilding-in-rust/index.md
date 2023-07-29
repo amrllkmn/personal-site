@@ -26,8 +26,10 @@ Around April, I've built a URL shortener app with Rails and Next.js. When I buil
 This is a big list of stuff to do, it's going to take a while, but I got the time.
 
 ## What's next?
-I've been drawing out what I want the app to look like. I want to simplify the UI even more and use grid systems so that I can have a more responsive UI. Recently, I worked on a project that required me to use a grid system to quickly snap to a layout depending on the user's screen size. I'm going to use it here as well.
+I've been drawing out what I want the app to look like. I don't know if I'll keep the colors and fonts but I do want to simplify the UI even more and use grid systems so that I can have a more responsive UI. Recently, I worked on a project that required me to use a grid system to quickly snap to a layout depending on the user's screen size. I'm going to use it here as well.
 
-As for the backend, I'm going to try and keep as much as the features implemented in Rails as possible. I don't have a slightest clue on how to implement a web app in Rust, but I'm going to try and learn as much as I can.
+As for the backend, I'm going to try and keep as much as the features implemented in Rails as possible. I don't have a slightest clue on how to implement a web app in Rust, what frameworks to use, but I'm going to try and keep it as simple as possible.
+
+For deployment, I do know that I want to use AWS for this, I just don't know how to do it yet. So far, I'm interested in learning how to use ECS so that I can just deploy the app as a container. That way, I can simplify the deployment process through CI/CD.
 
 That's all I have for now. Obviously, this will be a multi-part series, so stay tuned for more updates.
