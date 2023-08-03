@@ -36,4 +36,4 @@ For deployment, I do know that I want to use AWS for this, I just don't know how
 
 That's all I have for now. This will be a multi-part series (because content), so stay tuned for more updates.
 
-P.S: I haven't written anything in a while bear with me.
+P.S: I haven't written anything in a while so bear with me.
