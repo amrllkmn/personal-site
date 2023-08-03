@@ -1,7 +1,7 @@
 ---
 title: "Rebuilding in Rust"
 date: 2023-07-29T14:16:48+08:00
-draft: true
+draft: false
 summary: I want to build (rebuild) an app in Rust.
 tags: ["rust", "webdev", "backend"]
 series: ["Rebuilding in Rust"]
