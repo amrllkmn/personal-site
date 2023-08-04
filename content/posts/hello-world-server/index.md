@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2023-08-03T21:56:16+08:00
-draft: true
+draft: true # CHANGE TO FALSE BEFORE MERGING TO MAIN
 summary: I got a simple Rust web server up and running.
 tags: ["rust", "webdev", "backend", "actix-web"]
 series: ["Rebuilding in Rust"]
