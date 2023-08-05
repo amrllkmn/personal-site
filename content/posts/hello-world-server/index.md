@@ -1,7 +1,7 @@
 ---
 title: "Hello World"
 date: 2023-08-03T21:56:16+08:00
-draft: true # CHANGE TO FALSE BEFORE MERGING TO MAIN
+draft: false # CHANGE TO FALSE BEFORE MERGING TO MAIN
 summary: I got a simple Rust web server up and running.
 tags: ["rust", "webdev", "backend", "actix web"]
 series: ["Rebuilding in Rust"]
@@ -11,7 +11,7 @@ series_order: 2
 > TL;DR: I got a simple Rust web server up and running.
 
 ## First steps
-I bit the bullet and chose [Actix Web](https://actix.rs/docs/getting-started/) to build the web server. It was pretty straight forward. I first created a new Rust project with `cargo new url-shortener-v2`. Then, I added the Actix Web crate in my `Cargo.toml` and followed the [Getting Started](https://actix.rs/docs/getting-started/) guide on the Actix Web website.
+I chose a framework [Actix Web](https://actix.rs/) to build the web server. The justification was mainly because of the benchmarking done [here](https://github.com/programatik29/rust-web-benchmarks). Plus, there was a lot of tutorials that built on top of this framework so it would be easier for me follow along. The documentation was also straight forward. I first created a new Rust project with `cargo new url-shortener-v2`. Then, I added the Actix Web crate in my `Cargo.toml` and followed the [Getting Started](https://actix.rs/docs/getting-started/) guide on the Actix Web website.
 
 At the end of the guide, you should have this:
 
