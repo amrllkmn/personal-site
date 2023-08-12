@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Infrastructure"
 date: 2023-08-12T11:34:10+08:00
-draft: true
+draft: false
 summary: I learned how to set up a server for the app.
 tags: ["ec2","nginx","aws", "ssl"]
 series: ["Rebuilding in Rust"]
@@ -76,4 +76,4 @@ Now the app can accept HTTP/HTTPS requests, but only when I'm logged in to the s
 See the lock next to the url? That's the SSL certificate in action.
 
 ## Conclusion
-I've laid the groundwork for my app and at the same time learned invaluable experience in infrastructure development.I am excited to continue my journey in developing (to be more precise, re-developing) this app. Besides that, I finally understand what the trade-off is between allowing a provider to handle it for me (like [Render](https://render.com/)) and doing it myself. There's a lot more steps, but more control as well.
+I've laid the groundwork for my app and at the same time learned invaluable experience in infrastructure development. I am excited to continue my journey in developing (to be more precise, re-developing) this app. Besides that, I finally understand what the trade-off is between allowing a provider to handle it for me (like [Render](https://render.com/)) and doing it myself. There's a lot more steps, but more control as well.
