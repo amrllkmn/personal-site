@@ -76,4 +76,4 @@ Ensuring continuous app accessibility even after logging out of the server was c
 See the lock next to the url? That's the SSL certificate in action.
 
 ## Conclusion
-In this endeavor, I not only laid the groundwork for my app but also gained invaluable experience in infrastructure development. I learned so much, from setting up an EC2 instance to configuring NGINX and SSL. I am excited to continue my journey and learn more about infrastructure development.
+I've laid the groundwork for my app and at the same time learned invaluable experience in infrastructure development.I am excited to continue my journey in developing (to be more precise, re-developing) this app. Besides that, I finally understand what the trade-off is between allowing a provider to handle it for me (like [Render](https://render.com/)) and doing it myself. There's a lot more steps, but more control as well.
