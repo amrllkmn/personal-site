@@ -38,7 +38,7 @@ series_order: 3
 ```
 
 ## Step 4: Establishing Domain Name and SSL
- Securing a domain name for my API was the next hurdle. I have a domain on Cloudflare, and I wanted to attach this domain name to my EC2 instance. This task required creating a DNS record on Cloudflare and directing it to my EC2 instance. Transitioning to HTTPS meant I had to install `certbot` on my server. `certbot` allowed me to generate an SSL certificate for my app ( I ran the command `sudo certbot certonly --nginx -d example.com -d *.example.com` while I was logged in to my server). It also allows you easily handle auto-renewal of your certificate! Also, quick reminder: please generate a SSL certificate for both domains, e.g: `example.com` and `www.example.com`, as it would make your app look unsecured as the certificate generated doesn't match. With the certificate generated, I included the path of the certificate into my NGINX configuration. With this, I was able to create a secure connection to my app. It should look like below:
+ Securing a domain name for my API was the next hurdle. I have a domain on Cloudflare, and I wanted to attach this domain name to my EC2 instance. This task required creating a DNS record on Cloudflare and directing it to my EC2 instance. Transitioning to HTTPS meant I had to install `certbot` on my server. `certbot` allowed me to generate an SSL certificate for my app ( I ran the command `sudo certbot certonly --nginx -d example.com -d *.example.com` while I was logged in to my server). The `certbot` handles auto-renewal of the SSL certificate. Also, quick reminder: please generate a SSL certificate for both domains, e.g: `example.com` and `www.example.com`, as it would make the app look unsecured as the certificate generated doesn't match. With the certificate generated, I included the path of the certificate into my NGINX configuration. With this, I was able to create a secure connection to my app. It should look like below:
 
  ```nginx
  server {
@@ -65,7 +65,7 @@ server {
  ```
 
 ## Step 5: Opening up Ports
-Although I've set up the server to accept requests from port 443 and port 80, I still need to open up these ports on the EC2 instance. This step is crucial as it allows the server to accept requests from the public. I opened up these ports by adding them to the security group of my EC2 instance. Port 80 for HTTP and port 443 for HTTPS. By default, you should have an SSH port open, which is port 22.
+Although I've set up the server to accept requests from port 443 and port 80, I still need to open up these ports on the EC2 instance. This step is crucial as it allows the server to accept requests from the public. I opened up these ports by adding them to the security group of my EC2 instance. Port 80 for HTTP and port 443 for HTTPS. By default, it should have an SSH port open, which is port 22.
 
 
 ## Step 6: Running it in Background 
