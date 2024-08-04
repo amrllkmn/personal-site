@@ -8,7 +8,7 @@ series_order: 1
 
 > I'm building a Dropbox clone and I'm laying down the rules of how it will be built.
 
-Hello folks, before we get started, let's just get it out of the way, I got burnt out on writing these blogs, plus I was hit with an unexpected bill on AWS for the last project, which put a damper on the entire series. Then, I got a job, built and deployed another project (a note-taking app) but was still burnt out on writing, so no series on that one. However, I realised I missed out on a lot of value by not writing what I've learned from the second project.
+Hello folks, before we get started, let's just get it out of the way: I got burnt out on writing these blogs, plus I was hit with an unexpected bill on AWS for the last project, which put a damper on the entire series. Then, I got a job, built and deployed another project (a note-taking app) but was still burnt out on writing, so no blog series on that one. However, I realized I missed out on a lot of value by not writing what I've learned from the second project.
 
 So this is a redemption arc, a comeback one might say. I'm making a third clone project. This time, I'm building a Dropbox clone.
 
@@ -16,7 +16,7 @@ One might ask, "What's different this time?"
 
 To that I say, "This time, the only guarantee that I'll make is that you'll get a heads up when I'm quitting the project."
 
-Here are the early on decisions that we're making for the Dropbox clone:
+Here are the early decisions I'm making for the Dropbox clone:
 
 **The stack:**
 
@@ -24,11 +24,11 @@ Here are the early on decisions that we're making for the Dropbox clone:
 - PostgreSQL as the DB
 - Svelte as the frontend
 
-**What it should do**
+**What it should do:**
 
 - Authentication/Authorization
 - Upload file(s)
-- Rename files(s)
+- Rename file(s)
 - Create folder(s)
 - Rename folder(s)
 - Delete file(s)/folder(s)
@@ -39,9 +39,9 @@ Here are the early on decisions that we're making for the Dropbox clone:
 - Show storage usage
 - Generate shareable links
 
-**What it won't do**
+**What it won't do:**
 
-- Have a mobile friendly design
+- Have a mobile-friendly design
 - File previews
 - Cancelling mid-uploads
 - Sync to local folder directory
