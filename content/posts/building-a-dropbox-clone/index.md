@@ -1,7 +1,7 @@
 ---
 title: "Building a Dropbox Clone"
 date: 2024-08-04T21:32:49+08:00
-draft: true
+draft: false
 series: ["Dropbox Clone"]
 series_order: 1
 ---
