@@ -6,7 +6,7 @@ series: ["Dropbox Clone"]
 series_order: 2
 ---
 
-> TL;DR: I want only authenticated users to be able to use our resources, so I'm building an authentication system
+> TL;DR: I want only authenticated users to be able to use our resources, so I'm building an authentication feature
 
 ## Context
 
@@ -20,22 +20,22 @@ For this feature, I need to:
 - Create a table for users
 - Create a dummy endpoint to test authentication
 
-I've decided to use OAuth, as I don't want to manage our users' credentials. Plus, if I were to go with the email/password route, I'll need to implement a password reset, and email verification flows. With OAuth, the responsibility of securing and validating the users' credentials falls on the third party.
+I've decided to use OAuth, as I don't want to manage our users' credentials. Plus, if I were to go with the email/password route, I'd need to implement password reset and email verification flows. With OAuth, the responsibility of securing and validating the users' credentials falls on the third party.
 
 ## The pros and cons of OAuth
 
 ### Pros:
 
-- It'll take less time to develop a solution
+- It will take less time to develop a solution
 - Simplifies the login and registration process
 - Offloads credential security to a trusted third party
 - Better user experience as they can just use an existing, verified account to access the app
 
 ### Cons:
 
-- Reliance on a third party provider
+- Reliance on a third-party provider
 - No control if there are outages
-- Access tokens and communication with the third-party needs to be managed
-- If user has no Google account, they won't be able to access the app
+- Access tokens and communication with the third party need to be managed
+- If a user has no Google account, they won't be able to access the app
 
 Now that's out of the way, let's build this thing.
