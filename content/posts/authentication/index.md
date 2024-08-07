@@ -6,11 +6,11 @@ series: ["Dropbox Clone"]
 series_order: 2
 ---
 
-> TL;DR: I want only authenticated users to be able to use our resources, so I'm building an authentication feature
+> TL;DR: I want only authenticated users to be able to use the app, so I'm building an authentication feature
 
 ## Context
 
-So for the Dropbox clone, I want to ensure that only verified users are allowed to interact with our API. Hence, I need to build an authentication service to wrap around the APIs I'll be building.
+So for the Dropbox clone, I want to ensure that only verified users are allowed to interact with the API. Hence, I need to build an authentication service to wrap around the APIs I'll be building.
 
 ## What needs to be done
 
