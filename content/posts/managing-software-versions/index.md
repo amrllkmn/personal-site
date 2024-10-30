@@ -1,7 +1,7 @@
 ---
 title: "Managing Software Versions"
 date: 2024-10-30T18:05:07+08:00
-draft: true
+draft: false
 ---
 
 ### Why do we need to manage versions?
