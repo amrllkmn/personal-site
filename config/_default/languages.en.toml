@@ -15,8 +15,8 @@ dateFormat = "2 January 2006"
 [author]
 name = "Amirul Lokman"
 image = "img/profile_pic.jpeg"
-headline = "Learning how to build cool stuff :smiling_face_with_sunglasses:"
-bio = "Hello, there :saluting_face:"
+headline = "Learning how to build cool stuff 🥶"
+bio = "Hello, there 🫡"
 links = [
     { linkedin = "https://linkedin.com/in/amrllkmn" },
     { github = "https://github.com/amrllkmn" },
