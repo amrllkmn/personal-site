@@ -12,6 +12,6 @@ I'm building a weightlifting logging app. For the first iteration, here are some
 - As a user, I can see how I'm improving through the data collected.
 - As a user, I can only see my data and no one else
 
-I'm also planning to work on the UI to be **mobile-friendly**. Here's [the GitHub repo](https://github.com/amrllkmn/one-more-set).
+I'm also planning to work on the UI to be **mobile-friendly**.
 
 Well, that's about it. 👋🏽 See you on the next one.
